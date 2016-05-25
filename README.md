@@ -29,13 +29,13 @@ Check [here](https://github.com/j3k0/cordova-plugin-purchase/wiki/HOWTO#add-andr
 ### Install the plugin (PhoneGap Build)
 
 ```xml
-<gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="4.0.0" />
+<gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0" />
 ```
 
 For Android:
 
 ```xml
-<gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="4.0.0">
+<gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0">
    <param name="BILLING_KEY" value="MIIB...."/>
 </gap:plugin>
 ```
@@ -59,6 +59,11 @@ See [Setup iOS Applications](https://github.com/j3k0/cordova-plugin-purchase/wik
  - **Android** version 2.2 (API level 8) or higher
    - with Google Play client version 3.9.16 or higher
  - **Windows** Store/Phone 8.1
+
+## Extensions
+
+ * [Simple Non-Renewing Subscriptions](https://github.com/j3k0/cordova-non-renewing-subscription)
+   * The easiest way to integrate purchase into an app that only needs a non-renewing subscription.
 
 ## Getting Started
 
